@@ -5,7 +5,7 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn,FaTelegramPlane } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -14,14 +14,14 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
+          <h3>Designed and Developed by Keyon Elam</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} KE</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
-            <li className="social-icons">
+            {/* <li className="social-icons">
               <a
                 href="https://github.com/tannermeng"
                 style={{ color: "white" }}
@@ -30,7 +30,7 @@ function Footer() {
               >
                 <AiFillGithub />
               </a>
-            </li>
+            </li> */}
             {/* <li className="social-icons">
               <a
                 href="https://twitter.com/Soumyajit4419"
@@ -41,6 +41,16 @@ function Footer() {
                 <AiOutlineTwitter />
               </a>
             </li> */}
+            <li className="social-icons">
+              <a
+                href="https://t.me/snowman1019"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <FaTelegramPlane />
+              </a>
+            </li>
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/keyon-elam-063809337/"

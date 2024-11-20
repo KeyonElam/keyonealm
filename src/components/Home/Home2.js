@@ -7,7 +7,7 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaTelegramPlane } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -78,7 +78,7 @@ function Home2() {
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://github.com/tannermeng"
                   target="_blank"
@@ -87,7 +87,7 @@ function Home2() {
                 >
                   <AiFillGithub />
                 </a>
-              </li>
+              </li> */}
               {/* <li className="social-icons">
                 <a
                   href="https://twitter.com/Soumyajit4419"
@@ -98,6 +98,16 @@ function Home2() {
                   <AiOutlineTwitter />
                 </a>
               </li> */}
+              <li className="social-icons">
+                <a
+                  href="https://t.me/snowman1019"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaTelegramPlane />
+                </a>
+              </li>
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/keyon-elam-063809337/"
