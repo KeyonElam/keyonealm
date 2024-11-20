@@ -5,7 +5,16 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import interactiveLearningPlatform from "../../Assets/Projects/Interactive Learning Platform.png";
+import videoService from "../../Assets/Projects/VideoService.png";
+import realtimeSportsBettingSite from "../../Assets/Projects/RealtimeSportsBettingSite.png";
+import educationAssessmentTool from "../../Assets/Projects/EducationAssessmentTool.png";
+import hadnmadegoods from "../../Assets/Projects/hadnmadegoods.png";
+import travelBookingPlatformpng from "../../Assets/Projects/travelBookingPlatformpng.png";
+import financialDashboard from "../../Assets/Projects/financialDashboard.png";
+// import educationAssessmentTool from "../../Assets/Projects/EducationAssessmentTool.png";
+// import educationAssessmentTool from "../../Assets/Projects/EducationAssessmentTool.png";
+// import educationAssessmentTool from "../../Assets/Projects/EducationAssessmentTool.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -23,70 +32,80 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={interactiveLearningPlatform}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Interactive Learning Platform"
+              description="An online platform designed to enhance student learning through interactive content, quizzes, and real-time feedback to increase student participation."
+              achievement="Led development that resulted in a 28% increase in student engagement within six months."
+              demoLink="https://brilliant.org/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={videoService}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Subscription-Based Video Service"
+              description="A scalable video streaming platform allowing users to access premium content via subscription, featuring reliable streaming and secure data storage."
+              achievement="Enhanced platform scalability and reliability by leveraging Angular and Node.js, using AWS EC2 and S3 for hosting and storage."
+              demoLink="https://www.muvi.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={educationAssessmentTool}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Educational Assessment Tool"
+              description="A digital tool that facilitates educational assessments and tests, providing real-time scoring and analysis to improve learning outcomes."
+              achievement="Improved system stability and user experience by resolving major slowdowns, ensuring smooth functionality during peak usage."
+              demoLink="https://www.classtime.com/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={realtimeSportsBettingSite}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Real-Time Online Sports Betting Website"
+              description="An online sports betting platform providing live updates, real-time data interaction, and engaging user experiences."
+              achievement="Boosted user engagement and extended the average session duration by 15 minutes by using the MERN stack with real-time data capabilities."
+              demoLink="https://sports.sportsinteraction.com/en-ca/sports"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={hadnmadegoods}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Online Marketplace for Handmade Goods"
+              description="A platform that allows artisans and small businesses to showcase and sell handmade products, with an emphasis on mobile usability and user engagement."
+              achievement="Drove platform engagement, leading to 15,000 active sessions within six months and supported 1,000+ artisans."
+              demoLink="https://www.uncommongoods.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={travelBookingPlatformpng}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Travel Booking Platform and Event Management App"
+              description="A comprehensive platform for booking travel accommodations and managing event tickets, featuring real-time data retrieval for a seamless experience."
+              achievement="Improved page load times to under 1.5 seconds, boosting user interaction rates by 25%."
+              demoLink="https://www.tiqets.com/"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={financialDashboard}
+              isBlog={false}
+              title="Financial Dashboard for Small Businesses"
+              description="A dashboard providing real-time financial data and insights to help small businesses monitor their financial health efficiently."
+              achievement="Reduced data analysis time by 50%, enhancing workflow efficiency."
+              demoLink="https://www.waveapps.com/"
+            />
+          </Col>
+          
         </Row>
       </Container>
     </Container>
