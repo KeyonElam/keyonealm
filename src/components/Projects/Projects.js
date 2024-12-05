@@ -41,7 +41,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={videoService}
               isBlog={false}
@@ -50,7 +50,7 @@ function Projects() {
               achievement="Enhanced platform scalability and reliability by leveraging Angular and Node.js, using AWS EC2 and S3 for hosting and storage."
               demoLink="https://www.muvi.com/"
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
